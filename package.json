@@ -1,0 +1,24 @@
+{
+  "name": "swe-project-hw4",
+  "version": "1.0.0",
+  "description": "It is a diablo information displayer with a few extra features",
+  "main": "HW 4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuclearW1nter/SWE-Project.git"
+  },
+  "author": "Justin Plassmeyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuclearW1nter/SWE-Project/issues"
+  },
+  "homepage": "https://github.com/NuclearW1nter/SWE-Project#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "fetch": "^1.1.0",
+    "nodemon": "^1.12.1"
+  }
+}
