@@ -117,18 +117,37 @@ app.listen(app.get('port'), function() {
 });
 
 app.get('/', function (req,res){
-    res.send("Please get your Diablo 3 account's username and number and got to /(your username)-#### ");
+    res.send("Please get your Diablo 3 account's username and number and got to /user/(your username)-#### ");
 });
-app.get('/:userid', function (req,res) {
-    username = req.params.userid;
-    var url = `https://us.api.battle.net/d3/profile/${username}/?locale=en_US&apikey=twqr2eysu74xn7ezw9a68tsf3wyub25x`;
-    Promise(fetch(url)
-    ).then((res) =>{
-        if (res.status >299 || res.status < 200){
-            res.send("there was an error getting the data")
-        }
-        return Promise(res.json())
-    }).then((json) => {
-        console.log(json);
+app.route('/user/:userid')
+    .all(function (req,res,next) {
+        promise = new Promise(function (resolve,reject) {
+            username = req.params.userid;
+            var url = 'https://us.api.battle.net/d3/profile/' + username + '/?locale=en_US&apikey=twqr2eysu74xn7ezw9a68tsf3wyub25x';
+            (fetch(url)
+            ).then((res) =>{
+                return res.json();
+            }).then((json) => {
+                rawUserData = json;
+            }).catch(function (e) {
+                console.log("There was some sort of error");
+                console.log(e);
+            });
+        })
+        next();
     })
-})
+    .get(function (req,res){
+        var userData = new Diablo_Character_Data(rawUserData);
+        var heroMap = userData.CharacterMap();
+        var mapIter = heroMap.keys();
+        let tempKey;
+        let database = firebase.database();
+        for (let x of heroMap){
+            tempKey = mapIter.next().value;
+            database.ref('username/' + tempKey).set(
+                { heroname: heroMap.get(tempKey)
+                });
+        }
+        res.send("hi");
+    })
+

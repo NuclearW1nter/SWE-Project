@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233d9001-286c-4eb6-937a-72387086d93e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW 4.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/.jscsrc" afterPath="$PROJECT_DIR$/node_modules/nodemon/.jscsrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/.npmignore" afterPath="$PROJECT_DIR$/node_modules/nodemon/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/CODE_OF_CONDUCT.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/Dockerfile" afterPath="$PROJECT_DIR$/node_modules/nodemon/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/README.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/arch.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/arch.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/events.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/events.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/option-parsing-logic.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/option-parsing-logic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/requireable.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/requireable.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/rules.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/rules.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/sample-nodemon.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/sample-nodemon.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/docs/index.html" afterPath="$PROJECT_DIR$/node_modules/nodemon/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/docs/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/docs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/faq.md" afterPath="$PROJECT_DIR$/node_modules/nodemon/faq.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/package-lock.json" afterPath="$PROJECT_DIR$/node_modules/nodemon/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nodemon/travis_after_all.py" afterPath="$PROJECT_DIR$/node_modules/nodemon/travis_after_all.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4.js" afterPath="$PROJECT_DIR$/HW4.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,8 +29,8 @@
       <file leaf-file-name="HW4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1293">
-              <caret line="124" column="11" lean-forward="false" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+            <state relative-caret-position="654">
+              <caret line="148" column="16" lean-forward="false" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -108,8 +52,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/HW 4.js" />
-        <option value="$PROJECT_DIR$/HW4.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/HW4.js" />
       </list>
     </option>
   </component>
@@ -201,12 +145,12 @@
       <updated>1506949958766</updated>
       <workItem from="1506949960075" duration="3254000" />
       <workItem from="1507062606348" duration="12804000" />
-      <workItem from="1507150920893" duration="3555000" />
+      <workItem from="1507150920893" duration="8098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19613000" />
+    <option name="totallyTimeSpent" value="24156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="905" y="0" width="930" height="1088" extended-state="0" />
@@ -298,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1293">
-          <caret line="124" column="11" lean-forward="false" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+        <state relative-caret-position="654">
+          <caret line="148" column="16" lean-forward="false" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
           <folding />
         </state>
       </provider>
