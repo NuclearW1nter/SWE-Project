@@ -90,3 +90,7 @@ class HeroData{
         return retrunArray;
     }
 }
+
+const express = require('express');
+const app = express();
+var fetch = require('node-fetch');
