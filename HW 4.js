@@ -93,4 +93,37 @@ class HeroData{
 
 const express = require('express');
 const app = express();
-var fetch = require('node-fetch');
+const fetch = require('node-fetch');
+const firebase = require("firebase");
+var rawUserData;
+var rawHeroData;
+var username;
+
+var config = {
+    apiKey: "AIzaSyBmZQF4USrZKDDbGlVjx_S4oiIBpPDvnGY",
+    authDomain: "swe-project-hw.firebaseapp.com",
+    databaseURL: "https://swe-project-hw.firebaseio.com",
+    projectId: "swe-project-hw",
+    storageBucket: "swe-project-hw.appspot.com",
+    messagingSenderId: "382894996954"
+};
+firebase.initializeApp(config);
+
+var database = firebase.database();
+
+app.set('port', (process.env.PORT || 5000));
+app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
+});
+
+app.get('/', function (req,res){
+    res.send("Please get your Diablo 3 account's username and number and got to /(your username)-#### ");
+});
+app.get('/:userid', function (req,res) {
+    username = req.params.userid;
+    database.ref('users/' + 'Josh').set(
+        { username: 'Josh', email: 'josh@gmail.com'
+        });
+    res.send("hi");
+
+});
