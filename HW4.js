@@ -121,9 +121,14 @@ app.get('/', function (req,res){
 });
 app.get('/:userid', function (req,res) {
     username = req.params.userid;
-    database.ref('users/' + 'Josh').set(
-        { username: 'Josh', email: 'josh@gmail.com'
-        });
-    res.send("hi");
-
-});
+    var url = `https://us.api.battle.net/d3/profile/${username}/?locale=en_US&apikey=twqr2eysu74xn7ezw9a68tsf3wyub25x`;
+    Promise(fetch(url)
+    ).then((res) =>{
+        if (res.status >299 || res.status < 200){
+            res.send("there was an error getting the data")
+        }
+        return Promise(res.json())
+    }).then((json) => {
+        console.log(json);
+    })
+})
