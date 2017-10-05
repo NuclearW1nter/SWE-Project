@@ -2,8 +2,9 @@
   "name": "swe-project-hw4",
   "version": "1.0.0",
   "description": "It is a diablo information displayer with a few extra features",
-  "main": "HW 4.js",
+  "main": "HW4.js",
   "scripts": {
+    "start": "nodemon HW4.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
